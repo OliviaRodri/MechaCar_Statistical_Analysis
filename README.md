@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 
-![Images_here](Resources\deliv_1.PNG)
+![Images_here](Resources/deliv_1.PNG)
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?:
 The variables/coefficients are vehicle lngth and ground clearance.
