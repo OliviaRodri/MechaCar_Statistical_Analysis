@@ -5,19 +5,21 @@
 
 - The variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset were the vehicle length and ground clearance.
 
-- The slopes of the linear model  of vehicle weight and spoiler angle are nearly zero, because they don't impact the miles per gallon.
+- The slopes of the linear model  of vehicle weight and spoiler angle are nearly zero, because they do not impact the miles per gallon.
 
 
-- This linear model does predict effectly because it has a good R-squared value of 0.71.
+- This linear model does predict effectively, because it has a good R-squared value of 0.71.
 
 ## Summary Statistics on Suspension Coils
 
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI). Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not? 
-![Images_here](Resources/suspension_coil.PNG)
-- All manufacturing lots have a mean of 1499 with a variance of 62.3 which is less than 100, therefore meet the design specification.  
-  ![Images_here](Resources/lots.PNG)
-- Lot 1 and 2 have a mean of 1500 and a variance of 1.0 and 7.5 therefore they meet the design specification. Lot 3 has a mean of 1496 with a variance of 170.3 which is greater than 100, therefore does not meet the design specification.
+  The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI). Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+   
 
+- All manufacturing lots have a mean of 1499 with a variance of 62.3 which is less than 100, therefore meet the design specification.
+ ![Images_here](Resources/suspension_coil.PNG)   
+ 
+- Lot 1 and 2 have a mean of 1500 and a variance of 1.0 and 7.5 therefore they meet the design specification. Lot 3 has a mean of 1496 with a variance of 170.3 which is greater than 100, therefore does not meet the design specification.
+![Images_here](Resources/lots.PNG)
 ## T-Tests on Suspension Coils
 For all lots, the null hypothesis is rejected due to the low p-value of 6.0%. 
 ![Images_here](Resources/t_test_all_lots.PNG)
@@ -29,10 +31,10 @@ For Lot 3, the null hypothesis is rejected because the p-value is very low at 4.
 ![Images_here](Resources/t_test_lot3.PNG)
 
 ## Study Design: MechaCar vs Competition
-Metrics of interest to the consumer are safety rating, cost, and fuel efficiency.
+Examples of metrics of interest to the consumer may be safety rating, cost, or fuel efficiency.
 
 What metric or metrics are you going to test?
-- The metric to test would be fuel efficiency.  
+- The metric to test for this example is fuel efficiency.  
 
 What is the null hypothesis or alternative hypothesis? 
 
